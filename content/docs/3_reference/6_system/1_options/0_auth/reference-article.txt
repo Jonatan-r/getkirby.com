@@ -99,6 +99,10 @@ return [
 
 (image: password-reset.png)
 
+<info>
+Using a local development environment? Sendig email from localhost can be difficult, as mails often don’t get through. Consider using a mail provider for testing.
+</info>
+
 ### Two-step or two-factor authentication
 
 To enable two-step/two-factor authentication for your logins, you can pass the `2fa` option to the `password` method in an array.
